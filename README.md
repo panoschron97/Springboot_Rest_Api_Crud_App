@@ -1,5 +1,4 @@
 # Springboot REST API CRUD App
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/panoschron97/Springboot_Rest_Api_Crud_App)
 
 This project is a comprehensive RESTful API built with Spring Boot. It demonstrates full CRUD (Create, Read, Update, Delete) functionality for a company management system, including entities for Companies, Departments, Tasks, and Employee Information. The application is secured using Spring Security with role-based access control and integrates Springdoc OpenAPI for interactive API documentation.
 
