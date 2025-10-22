@@ -1,15 +1,15 @@
 # Springboot rest api crud app
 
-This project is a comprehensive RESTful API built with Spring Boot. It demonstrates full CRUD (Create, Read, Update, Delete) functionality for a company management system, including entities for Companies, Departments, Tasks, and Employee Information. The application is secured using Spring Security with role-based access control and integrates Springdoc OpenAPI for interactive API documentation.
+This project is a comprehensive RESTful API built with Spring Boot. It demonstrates full CRUD (Create, Read, Update, Delete) functionality for a company management system, including entities for Companies, Departments, Tasks and Employee Information. The application is secured using Spring Security with role-based access control and integrates Springdoc OpenAPI for interactive API documentation.
 
 ## Features
 
-- **RESTful API:** Provides CRUD endpoints for managing companies, departments, tasks, and employees.
-- **Database Schema:** Includes a detailed MySQL database setup with tables, relationships, constraints, triggers, and stored procedures.
+- **RESTful API:** Provides CRUD endpoints for managing companies, departments, tasks and employees.
+- **Database Schema:** Includes a detailed MySQL database setup with tables, relationships, constraints, triggers and stored procedures.
 - **Spring Security:** Implements role-based access control (RBAC) for different API endpoints using JDBC-based authentication.
 - **JPA & Hibernate:** Uses Spring Data JPA for data persistence and object-relational mapping.
 - **API Documentation:** Automatically generates interactive API documentation with Swagger UI via Springdoc.
-- **Custom Exception Handling:** Provides clear, structured error responses for API requests.
+- **Custom Exception Handling:** Provides clear structured error responses for API requests.
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ Follow these steps to get the application up and running on your local machine.
         CREATE DATABASE IF NOT EXISTS application;
         ```
     -   Run the provided SQL scripts to set up the schema and seed the data. Execute the files in the following order:
-        1.  `Application.sql` (Creates the main tables, triggers, and procedures)
+        1.  `Application.sql` (Creates the main tables, triggers and procedures)
         2.  `security.sql` (Creates user and authority tables for security)
 
 3.  **Configure Application Properties:**
@@ -101,8 +101,8 @@ The API is secured using Basic Authentication and a role-based access system. Th
 
 **User Roles and Permissions:**
 -   **ROLE_EMPLOYEE**: Can perform `GET` requests (read-only access).
--   **ROLE_MANAGER**: Can perform `GET`, `POST`, `PUT`, and `PATCH` requests (read, create, update).
--   **ROLE_ADMIN**: Can perform all operations, including `DELETE`.
+-   **ROLE_MANAGER**: Can perform `GET`, `POST`, `PUT` and `PATCH` requests (read, create, update).
+-   **ROLE_ADMIN**: Can perform all operations including `DELETE`.
 
 **Default Users:**
 | Username | Password  | Roles                         |
