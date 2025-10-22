@@ -1,4 +1,4 @@
-# Springboot REST API CRUD App
+# Springboot rest api crud app
 
 This project is a comprehensive RESTful API built with Spring Boot. It demonstrates full CRUD (Create, Read, Update, Delete) functionality for a company management system, including entities for Companies, Departments, Tasks, and Employee Information. The application is secured using Spring Security with role-based access control and integrates Springdoc OpenAPI for interactive API documentation.
 
